@@ -1,0 +1,73 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Test your knowledge of the Indian states and their capitals.",
+          "examplePhrases": [
+            "Alexa, open Indian States Quiz",
+            "Alexa, play Indian States Quiz",
+            "Alexa, launch Indian States Quiz"
+          ],
+          "keywords": [
+            "quiz",
+            "games",
+            "geography"
+          ],
+          "name": "Indian States Quiz",
+          "description": "Test your knowledge of the Indian states and their capitals.\n\nStates Quiz provides a fun way to keep your Indian geography skills sharp.\n\nTo start, just say \"Alexa, launch Indian States Quiz\" or \"Alexa, open Indian States Quiz\" to start the game\".\n\nAt any time, you can stop the game by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Initial Release",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "None",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:208442610874:function:285815b0-fe9f-4863-af9d-0d4f0224b3aa:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:208442610874:function:285815b0-fe9f-4863-af9d-0d4f0224b3aa:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:208442610874:function:285815b0-fe9f-4863-af9d-0d4f0224b3aa:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:208442610874:function:285815b0-fe9f-4863-af9d-0d4f0224b3aa:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://v.ht/termsofuse",
+          "privacyPolicyUrl": "https://v.ht/privacy"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

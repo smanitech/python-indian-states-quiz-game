@@ -1,0 +1,293 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "indian states quiz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "state",
+              "type": "AMAZON.US_STATE"
+            },
+            {
+              "name": "capital",
+              "type": "AMAZON.US_CITY"
+            },
+            {
+              "name": "statehood_year",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER"
+            },
+            {
+              "name": "abbreviation",
+              "type": "IN_STATE_ABBR"
+            },
+            {
+              "name": "statehood_order",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{state}",
+            "{capital}",
+            "{statehood_year}",
+            "{statehood_order}",
+            "{abbreviation}",
+            "tell me about {state}",
+            "tell me about {capital}",
+            "tell me about {statehood_year}",
+            "tell me about {statehood_order}",
+            "tell me about {abbreviation}",
+            "what do you know about {state}",
+            "what do you know about {capital}",
+            "what do you know about {statehood_year}",
+            "what do you know about {statehood_order}",
+            "what do you know about {abbreviation}",
+            "{state} information",
+            "{capital} information",
+            "{statehood_year} information",
+            "{statehood_order} information",
+            "{abbreviation} information"
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [],
+          "samples": [
+            "start a quiz",
+            "start a quiz game",
+            "and start a quiz",
+            "and quiz me",
+            "for a quiz",
+            "a quiz"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "AP"
+              }
+            },
+            {
+              "name": {
+                "value": "AR"
+              }
+            },
+            {
+              "name": {
+                "value": "AS"
+              }
+            },
+            {
+              "name": {
+                "value": "BR"
+              }
+            },
+            {
+              "name": {
+                "value": "CG"
+              }
+            },
+            {
+              "name": {
+                "value": "GA"
+              }
+            },
+            {
+              "name": {
+                "value": "GJ"
+              }
+            },
+            {
+              "name": {
+                "value": "HR"
+              }
+            },
+            {
+              "name": {
+                "value": "HP"
+              }
+            },
+            {
+              "name": {
+                "value": "JH"
+              }
+            },
+            {
+              "name": {
+                "value": "KA"
+              }
+            },
+            {
+              "name": {
+                "value": "KL"
+              }
+            },
+            {
+              "name": {
+                "value": "MP"
+              }
+            },
+            {
+              "name": {
+                "value": "MH"
+              }
+            },
+            {
+              "name": {
+                "value": "MN"
+              }
+            },
+            {
+              "name": {
+                "value": "ML"
+              }
+            },
+            {
+              "name": {
+                "value": "MZ"
+              }
+            },
+            {
+              "name": {
+                "value": "NL"
+              }
+            },
+            {
+              "name": {
+                "value": "OD"
+              }
+            },
+            {
+              "name": {
+                "value": "PB"
+              }
+            },
+            {
+              "name": {
+                "value": "RJ"
+              }
+            },
+            {
+              "name": {
+                "value": "SK"
+              }
+            },
+            {
+              "name": {
+                "value": "TN"
+              }
+            },
+            {
+              "name": {
+                "value": "TS"
+              }
+            },
+            {
+              "name": {
+                "value": "TR"
+              }
+            },
+            {
+              "name": {
+                "value": "UP"
+              }
+            },
+            {
+              "name": {
+                "value": "UK"
+              }
+            },
+            {
+              "name": {
+                "value": "WB"
+              }
+            }
+          ],
+          "name": "IN_STATE_ABBR"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "3"
+}
